@@ -4,23 +4,23 @@
 
 ## Quickstart
 
-### installer software og driver til Axidraw
+### Installer software og driver til Axidraw
 
-- Download software [Her](axidraw.com/sw)
+- Download software [Her](axidraw.com/sw).
 
-  - software indeholder Inkscape + udvidelser der bruges til at styre AxiDraw fra inkscape
+  - Software indeholder Inkscape + udvidelser der bruges til at styre AxiDraw fra inkscape.
 
 - Når du har downloadet inkscape og driver skal du genstarte din laptop.
 
-- Nu skal du bestemme din arbejdsflade
+- Nu skal du bestemme din arbejdsflade.
 
-  - inde i Inkscape, gå til file/document properties
+  - Inde i Inkscape, gå til file/document properties.
 
     ![](./media/document-properties-location.png)
 
     ![](./media/document-properties.png)
 
-  - her indtilles størrelsen og om papiret er i "portrait" eller "landscape" i forhold til plotteren.
+  - Her indtilles størrelsen og om papiret er i "portrait" eller "landscape" i forhold til plotteren.
 
 - Nu kan du designe din figur/tekst.
 
@@ -28,55 +28,55 @@
 
 - Når du har lavet dit design skal du konverterer dine figurer til paths.
 
-  - marker din figur
-  - gå til path/object to path
+  - Marker din figur.
+  - Gå til path/object to path.
 
   ![](./media/path-object-to-path.png)
 
-- Nu er din figur klar til at blive plottet, og plotterens hardware kan klargørres.
+- Nu er din figur klar til at blive plottet, og plotterens hardware kan klargøres.
 
 ## Hardware setup
 
-- først skal "huset", hvor pennen monteres, flyttes hen til "Home-Position Label" positionen
+- Først skal "huset", hvor pennen monteres, flyttes hen til "Home-Position Label" positionen.
 
   ![](./media/Home-position.png)
 
-**Vigtigt!!!**: Hvis huset ikke nemt kan flyttes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors
+**Vigtigt!!!**: Hvis huset ikke nemt kan flyttes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
 ![](./media/disableXYMotorsPath.png)
 
-- Tilslut axidraw til strøm
+- Tilslut axidraw til strøm.
 
   ![](./media/Strøm-tilslutning.png)
 
-- tjek om axidraw er tilsluttet korrekt
+- Tjek om axidraw er tilsluttet korrekt.
 
-  - gå til Extensions/AxiDraw Control
+  - Gå til Extensions/AxiDraw Control.
 
     ![](./media/Axidraw-control.png)
 
-  - gå til "setup"-tabben og aktiver "Toggle pen between UP, Down." og tryk "Apply"
+  - Gå til "setup"-tabben og aktiver "Toggle pen between UP, Down." og tryk "Apply".
 
     ![](./media/Axidraw-setup.png)
 
-    - hvis der ikke er noget der bevæger sig, så tjek om der stadig er strøm tilsluttet axidraw.
+    - Hvis der ikke er noget der bevæger sig, så tjek om der stadig er strøm tilsluttet axidraw.
 
   - Indsæt herefter noget at skrive med i Axidraw.
 
     ![](./media/Skriver.png)
 
-    - hver opmærksom på ikke at spænde spænde-skruen for hårdt fast.
+    - Hver opmærksom på ikke at spænde spænde-skruen for hårdt fast.
 
-    - placer skriveværktøjet ca. 3-6mm over papiret
+    - Placer skriveværktøjet ca. 3-6mm over papiret.
 
       ![](./media/Skriver-position.png)
 
-    - placer fastspændte papir under skriveren, som anvist på ovenstående billede.
+    - Placer fastspændte papir under skriveren, som anvist på ovenstående billede.
 
-    - gå til Extensions/AxiDraw Control og ind i "plot"-tabben.
+    - Gå til Extensions/AxiDraw Control og ind i "plot"-tabben.
 
 ![](./media/execute-plotter.png)
 
-- tryk så "**Apply**" for at plotte din figur.
+- Tryk så "**Apply**" for at plotte din figur.
 
 ![](https://66.media.tumblr.com/60232d71125a997ae2ee0ddae7a0ebbb/tumblr_ohgur2otdY1qav3uso3_r1_1280.gifv)
 
@@ -84,43 +84,43 @@ ___________
 
 ## Udviddet brug af Plotter
 
-DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at bruge plotteren på)
+DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at bruge plotteren på).
 
-- Der findes andre måder hvorpå man kan arbejde/kontrollere AxiDraw plotteren
+- Der findes andre måder hvorpå man kan arbejde/kontrollere AxiDraw plotteren.
   - [CLi-API ](https://axidraw.com/doc/cli_api)
   - [Python-API](https://axidraw.com/doc/py_api)
-- det er også muligt at interface direkte med AxiDraw's EBB motor control board
+- Det er også muligt at interface direkte med AxiDraw's EBB motor control board.
   - [EBB Motor control board command protocol](http://evil-mad.github.io/EggBot/ebb.html)
 
 ### Python-AxiDraw-Api
 
 ![](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
-(installationerne afhænger af om du bruger PC eller MAC)
+Installationerne afhænger af om du bruger PC eller MAC.
 
-- for at kunne bruge Python-API med plotteren kræver det at man har python installeret på sin computer
+- For at kunne bruge Python-API med plotteren kræver det at man har python installeret på sin computer.
 
-1. hvis du ikke er sikker på om du allerede har python installeret kan du tjekke det ved at åbne din terminal/command-prompt og skrivev
-   "python --version"
-   hvis du har python installeret skulle der gerne stå at du har python version x installeret
-2. hvis ikke python er installeret skal du gå ind på https://www.python.org/downloads/ og downloade python.
-3. herefter tjekker du igen om python er installeret ved at gå tilbage til trin 1. og skrive "python --version".
+1. Hvis du ikke er sikker på om du allerede har python installeret kan du tjekke det ved at åbne din terminal/command-prompt og skriv:
+   `python --version`
+   Hvis du har python installeret skulle der gerne stå at du har python version x installeret.
+2. Hvis ikke python er installeret skal du gå ind på https://www.python.org/downloads/ og downloade python.
+3. Herefter tjekker du igen om python er installeret ved at gå tilbage til trin 1. og skrive `python --version`.
 
-4. udover python skal du også have instelleret ["pip"](https://pip.pypa.io/en/stable/installing/) som er python's package manager. Her kan du igen tjekke om du har pip installeret ved at skrive "pip --version" i din terminal/command-prompt.
-5. hvis ikke pip er installeret kan du installere det ved at skrive
-   "sudo easy_install pip" og trykke ENTER.
-6. gå tilbage til trin 1 og test om pip er installeret.
+4. Udover python skal du også have installeret ["pip"](https://pip.pypa.io/en/stable/installing/) som er python's package manager. Her kan du igen tjekke om du har pip installeret ved at skrive: `pip --version` i din terminal/command-prompt.
+5. Hvis ikke pip er installeret kan du installere det ved at skrive:
+   `sudo easy_install pip` og trykke ENTER.
+6. Gå tilbage til trin 1 og test om pip er installeret.
 
-### installere afhængige programmer
+### Installere afhængige programmer
 
-- Brug pip til at installere **pyaxidraw** og **axicli**
+- Brug pip til at installere **pyaxidraw** og **axicli**.
 
-1. i terminal/command-prompt skriv
-   "cd /Users/username/Documents/axidraw-api/  (Your location and path will vary)"
+1. I terminal/command-prompt skriv:
+   `cd /Users/username/Documents/axidraw-api/` **NOTE: Your location and path will vary**
 
-2. skriv "pip install"
+2. Skriv: `pip install`
 
-3. skriv "pip install -r requirements.txt"
+3. Skriv: `pip install -r requirements.txt`
 
 **Vigtigt!!!**: Hvis ikke du allerede har gjort det så download denne mappe som en zip. I mappen er der en mappe der hedder "AxiDraw_API_v256" hvor de resterende elementer der skal til for at bruge python til at styre Axidraw, er i.
 
@@ -129,7 +129,7 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at 
 Brug python til at plotte .svg filer med AxiDraw.
 
 Åben /AxiDraw_API_v256/test_SVG.py i en text-editor der kan køre python-scripts.
-personligt har jeg brugt [ATOM](https://atom.io/) med [script-package](https://atom.io/packages/script)
+personligt har jeg brugt [ATOM](https://atom.io/) med [script-package](https://atom.io/packages/script).
 
 - Tilslut din computer med USB til plotteren og compile dit python script.
 
@@ -137,7 +137,7 @@ personligt har jeg brugt [ATOM](https://atom.io/) med [script-package](https://a
 
 #### Python interactive
 
-Brug python interaktivt med AxiDraw
+Brug python interaktivt med AxiDraw.
 
 Åben /AxiDraw_API_v256/test_Interactive.py i en text-editor der kan køre python-scripts.
 
@@ -145,7 +145,7 @@ Brug python interaktivt med AxiDraw
 
 ![](https://media2.giphy.com/media/ZfOEduyZdXEPK/giphy.gif)
 
-## source
+## Source
 
 - https://axidraw.com/
 - https://axidraw.com/sw
