@@ -101,14 +101,14 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at 
 - For at kunne bruge Python-API med plotteren kræver det at man har python installeret på sin computer
 
 1. Hvis du ikke er sikker på om du allerede har python installeret kan du tjekke det ved at åbne din terminal/command-prompt og skriv:
-   "python --version"
+   `python --version`
    Hvis du har python installeret skulle der gerne stå at du har python version x installeret
 2. Hvis ikke python er installeret skal du gå ind på https://www.python.org/downloads/ og downloade python.
 3. Herefter tjekker du igen om python er installeret ved at gå tilbage til trin 1. og skrive "python --version".
 
-4. Udover python skal du også have instelleret ["pip"](https://pip.pypa.io/en/stable/installing/) som er python's package manager. Her kan du igen tjekke om du har pip installeret ved at skrive "pip --version" i din terminal/command-prompt.
-5. Hvis ikke pip er installeret kan du installere det ved at skrive
-   "sudo easy_install pip" og trykke ENTER.
+4. Udover python skal du også have instelleret ["pip"](https://pip.pypa.io/en/stable/installing/) som er python's package manager. Her kan du igen tjekke om du har pip installeret ved at skrive: `pip --version` i din terminal/command-prompt.
+5. Hvis ikke pip er installeret kan du installere det ved at skrive:
+   `sudo easy_install pip` og trykke ENTER.
 6. Gå tilbage til trin 1 og test om pip er installeret.
 
 ### Installere afhængige programmer
@@ -116,11 +116,11 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at 
 - Brug pip til at installere **pyaxidraw** og **axicli**
 
 1. I terminal/command-prompt skriv:
-   "cd /Users/username/Documents/axidraw-api/  (Your location and path will vary)"
+   `cd /Users/username/Documents/axidraw-api/` **NOTE: Your location and path will vary**
 
-2. Skriv: "pip install"
+2. Skriv: `pip install`
 
-3. Skriv: "pip install -r requirements.txt"
+3. Skriv: `pip install -r requirements.txt`
 
 **Vigtigt!!!**: Hvis ikke du allerede har gjort det så download denne mappe som en zip. I mappen er der en mappe der hedder "AxiDraw_API_v256" hvor de resterende elementer der skal til for at bruge python til at styre Axidraw, er i.
 
