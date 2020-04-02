@@ -104,7 +104,7 @@ Installationerne afhænger af om du bruger PC eller MAC.
    `python --version`
    Hvis du har python installeret skulle der gerne stå at du har python version x installeret.
 2. Hvis ikke python er installeret skal du gå ind på https://www.python.org/downloads/ og downloade python.
-3. Herefter tjekker du igen om python er installeret ved at gå tilbage til trin 1. og skrive "python --version".
+3. Herefter tjekker du igen om python er installeret ved at gå tilbage til trin 1. og skrive `python --version`.
 
 4. Udover python skal du også have installeret ["pip"](https://pip.pypa.io/en/stable/installing/) som er python's package manager. Her kan du igen tjekke om du har pip installeret ved at skrive: `pip --version` i din terminal/command-prompt.
 5. Hvis ikke pip er installeret kan du installere det ved at skrive:
