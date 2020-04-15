@@ -128,7 +128,7 @@ Installationerne afhænger af om du bruger PC eller MAC.
 
 Brug python til at plotte .svg filer med AxiDraw.
 
-Åben /AxiDraw_API_v256/test_SVG.py i en text-editor der kan køre python-scripts.
+Åben /plotter/python/test_SVG.py i en text-editor der kan køre python-scripts.
 personligt har jeg brugt [ATOM](https://atom.io/) med [script-package](https://atom.io/packages/script).
 
 - Tilslut din computer med USB til plotteren og compile dit python script.
@@ -139,7 +139,7 @@ personligt har jeg brugt [ATOM](https://atom.io/) med [script-package](https://a
 
 Brug python interaktivt med AxiDraw.
 
-Åben /AxiDraw_API_v256/test_Interactive.py i en text-editor der kan køre python-scripts.
+Åben /plotter/python/test_Interactive.py i en text-editor der kan køre python-scripts.
 
 - Tilslut din computer med USB til plotteren og compile dit python script.
 
