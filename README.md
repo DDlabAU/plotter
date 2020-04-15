@@ -16,9 +16,9 @@
 
   - Inde i Inkscape, gå til file/document properties.
 
-    ![](./media/document-properties-location.png)
+    <img src="./media/document-properties-location.png" alt="alt text" width="400">
 
-    ![](./media/document-properties.png)
+    <img src="./media/document-properties.png" alt="alt text" width="400">
 
   - Her indtilles størrelsen og om papiret er i "portrait" eller "landscape" i forhold til plotteren.
 
