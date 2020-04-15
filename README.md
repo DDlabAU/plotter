@@ -3,10 +3,10 @@
 ![](https://wonderfulengineering.com/wp-content/uploads/2016/12/AxiDraw-pen-plotter-1.jpg)
 
 ## Indhold
-- [Quickstart]()
-  - [Installer software og driver til Axidraw]() 
-  - [Hardware setup]()
-- [Udviddet brug af plotter]()
+- [Quickstart](https://github.com/DDlabAU/plotter/blob/master/README.md#quickstart)
+  - [Installer software og driver til Axidraw](https://github.com/DDlabAU/plotter/blob/master/README.md#installer-software-og-driver-til-axidraw) 
+  - [Hardware setup](https://github.com/DDlabAU/plotter/blob/master/README.md#hardware-setup)
+- [Udviddet brug af plotter](https://github.com/DDlabAU/plotter/blob/master/README.md#udviddet-brug-af-plotter)
 
 ## Quickstart
 
