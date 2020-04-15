@@ -24,14 +24,14 @@
 
 - Nu kan du designe din figur/tekst.
 
-  ![](./media/figur.png)
+<img src="./media/figur.png" alt="alt text" width="300">
 
 - Når du har lavet dit design skal du konverterer dine figurer til paths.
 
   - Marker din figur.
   - Gå til path/object to path.
 
-  ![](./media/path-object-to-path.png)
+  <img src="./media/path-object-to-path.png" alt="alt text" width="300">
 
 - Nu er din figur klar til at blive plottet, og plotterens hardware kan klargøres.
 
@@ -39,46 +39,46 @@
 
 - Først skal "huset", hvor pennen monteres, flyttes hen til "Home-Position Label" positionen.
 
-  ![](./media/Home-position.png)
+  <img src="./media/Home-position.png" alt="alt text" width="300">
 
 **Vigtigt!!!**: Hvis huset ikke nemt kan flyttes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
-![](./media/disableXYMotorsPath.png)
+<img src="./media/disableXYMotorsPath.png" alt="alt text" width="300">
 
 - Tilslut axidraw til strøm.
 
-  ![](./media/Strøm-tilslutning.png)
+  <img src="./media/Strøm-tilslutning.png" alt="alt text" width="300">
 
 - Tjek om axidraw er tilsluttet korrekt.
 
   - Gå til Extensions/AxiDraw Control.
 
-    ![](./media/Axidraw-control.png)
+    <img src="./media/Axidraw-control.png" alt="alt text" width="300">
 
   - Gå til "setup"-tabben og aktiver "Toggle pen between UP, Down." og tryk "Apply".
 
-    ![](./media/Axidraw-setup.png)
+    <img src="./media/Axidraw-setup.png" alt="alt text" width="300">
 
     - Hvis der ikke er noget der bevæger sig, så tjek om der stadig er strøm tilsluttet axidraw.
 
   - Indsæt herefter noget at skrive med i Axidraw.
 
-    ![](./media/Skriver.png)
+    <img src="./media/Skriver.png" alt="alt text" width="300">
 
     - Hver opmærksom på ikke at spænde spænde-skruen for hårdt fast.
 
     - Placer skriveværktøjet ca. 3-6mm over papiret.
 
-      ![](./media/Skriver-position.png)
+      <img src="./media/Skriver-position.png" alt="alt text" width="300">
 
     - Placer fastspændte papir under skriveren, som anvist på ovenstående billede.
 
     - Gå til Extensions/AxiDraw Control og ind i "plot"-tabben.
 
-![](./media/execute-plotter.png)
+<img src="./media/execute-plotter.png" alt="alt text" width="300">
 
 - Tryk så "**Apply**" for at plotte din figur.
 
-![](https://66.media.tumblr.com/60232d71125a997ae2ee0ddae7a0ebbb/tumblr_ohgur2otdY1qav3uso3_r1_1280.gifv)
+<img src="https://66.media.tumblr.com/60232d71125a997ae2ee0ddae7a0ebbb/tumblr_ohgur2otdY1qav3uso3_r1_1280.gifv" alt="alt text" width="300">
 
 ___________
 
@@ -94,7 +94,7 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at 
 
 ### Python-AxiDraw-Api
 
-![](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="alt text" width="300">
 
 Installationerne afhænger af om du bruger PC eller MAC.
 
@@ -133,7 +133,7 @@ personligt har jeg brugt [ATOM](https://atom.io/) med [script-package](https://a
 
 - Tilslut din computer med USB til plotteren og compile dit python script.
 
-![](https://thumbs.gfycat.com/DistantReasonableDikkops-size_restricted.gif)
+<img src="https://thumbs.gfycat.com/DistantReasonableDikkops-size_restricted.gif" alt="alt text" width="300">
 
 #### Python interactive
 
@@ -143,7 +143,7 @@ Brug python interaktivt med AxiDraw.
 
 - Tilslut din computer med USB til plotteren og compile dit python script.
 
-![](https://media2.giphy.com/media/ZfOEduyZdXEPK/giphy.gif)
+<img src="https://media2.giphy.com/media/ZfOEduyZdXEPK/giphy.gif" alt="alt text" width="300">
 
 ## Source
 
