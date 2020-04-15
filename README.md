@@ -90,7 +90,7 @@ ___________
 
 ## Udviddet brug af Plotter
 
-DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måde at bruge plotteren på).
+DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måder at bruge plotteren på).
 
 - Der findes andre måder hvorpå man kan arbejde/kontrollere AxiDraw plotteren.
   - [CLi-API ](https://axidraw.com/doc/cli_api)
