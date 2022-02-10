@@ -1,4 +1,5 @@
 # DD-Lab's Plotter 
+Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skriveredskaber og på mange forskellige overflader.
 
 ![](https://wonderfulengineering.com/wp-content/uploads/2016/12/AxiDraw-pen-plotter-1.jpg)
 
@@ -12,11 +13,13 @@
 
 ### Installer software og driver til Axidraw
 
-- Download software [Her](axidraw.com/sw).
+- Download software [Her](https://wiki.evilmadscientist.com/Axidraw_Software_Installation).
 
-  - Software indeholder Inkscape + udvidelser der bruges til at styre AxiDraw fra inkscape.
+  - Software indeholder tegneprogrammet Inkscape + Udvidelser der bruges til at styre AxiDraw fra inkscape.
 
 - Når du har downloadet inkscape og driver skal du genstarte din laptop.
+
+- Start Inkscape op (for første gang: tryk igennem start-up menuen)
 
 - Nu skal du bestemme din arbejdsflade.
 
@@ -26,7 +29,7 @@
 
     <img src="./media/document-properties.png" alt="alt text" width="300">
 
-  - Her indtilles størrelsen og om papiret er i "portrait" eller "landscape" i forhold til plotteren.
+  - Her indtilles størrelsen og om papiret er i "portrait" eller "landscape" i forhold til plotteren (forestil dig, at plotteren ligger i toppen af arbejdsfladen).
 
 - Nu kan du designe din figur/tekst.
 
@@ -50,7 +53,7 @@
 **Vigtigt!!!**: Hvis huset ikke nemt kan flyttes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
 <img src="./media/disableXYMotorsPath.png" alt="alt text" width="300">
 
-- Tilslut axidraw til strøm.
+- Tilslut axidraw til strøm, og USB-kablet i computeren.
 
   <img src="./media/Strøm-tilslutning.png" alt="alt text" width="300">
 
@@ -60,13 +63,13 @@
 
     <img src="./media/Axidraw-control.png" alt="alt text" width="300">
 
-  - Gå til "setup"-tabben og aktiver "Toggle pen between UP, Down." og tryk "Apply".
+  - Gå til "setup"-tabben og aktiver "Toggle pen between UP, Down." og tryk "Apply". Så skulle maskinen gerne bevæge hovedet enten op eller ned.
 
     <img src="./media/Axidraw-setup.png" alt="alt text" width="300">
 
     - Hvis der ikke er noget der bevæger sig, så tjek om der stadig er strøm tilsluttet axidraw.
 
-  - Indsæt herefter noget at skrive med i Axidraw.
+  - Indsæt herefter noget at skrive med i Axidraw. Den kan enten positioneres lodret eller skrå alt afhængig af skrivereskabet.
 
     <img src="./media/Skriver.png" alt="alt text" width="300">
 
@@ -76,7 +79,7 @@
 
       <img src="./media/Skriver-position.png" alt="alt text" width="300">
 
-    - Placer fastspændte papir under skriveren, som anvist på ovenstående billede.
+    - Placer fastspændte papir under skriveren, som anvist på ovenstående billede (Dér hvor skriveren starter er 0-punktet for tegningen).
 
     - Gå til Extensions/AxiDraw Control og ind i "plot"-tabben.
 
@@ -104,11 +107,11 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måder at
 
 ## Source
 
-- https://axidraw.com/
-- https://axidraw.com/sw
-- https://axidraw.com/docs
-- https://wiki.evilmadscientist.com/AxiDraw_User_Guide
-- https://github.com/matthewalangreen/kinect-axidraw
+- https://axidraw.com/ 
+- https://axidraw.com/sw (Software installation)
+- https://axidraw.com/docs (Oversigt over dokumentationer)
+- https://wiki.evilmadscientist.com/AxiDraw_User_Guide (Fuld guide til plotteren)
+- https://github.com/matthewalangreen/kinect-axidraw (Plot med kinect motion sensor)
 - https://www.youtube.com/watch?v=j3yH6FfD_Wk (Pip install)
 - https://www.youtube.com/watch?v=5lsAoQ8lF4M (Script package til python)
 - https://github.com/piksels-and-lines-orchestra/inkscape (inkscape extension)
