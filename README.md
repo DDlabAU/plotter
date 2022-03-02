@@ -46,11 +46,11 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 ## Hardware setup
 
-- Først skal "huset", hvor pennen monteres, flyttes hen til "Home-Position Label" positionen.
+- Først skal "huset", hvor pennen monteres, skubbes hen til "Home-Position Label" positionen.
 
   <img src="./media/Home-position.png" alt="alt text" width="300">
 
-**Vigtigt!!!**: Hvis huset ikke nemt kan flyttes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
+**Vigtigt!!!**: Hvis huset ikke nemt kan skubbes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
 <img src="./media/disableXYMotorsPath.png" alt="alt text" width="300">
 
 - Tilslut axidraw til strøm, og USB-kablet i computeren.
@@ -69,17 +69,17 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
     - Hvis der ikke er noget der bevæger sig, så tjek om der stadig er strøm tilsluttet axidraw.
 
-  - Indsæt herefter noget at skrive med i Axidraw. Den kan enten positioneres lodret eller skrå alt afhængig af skrivereskabet.
+  - Indsæt herefter et skriveredskab i Axidraw. Den kan enten positioneres lodret eller skrå alt afhængig af skrivereskabet.
 
     <img src="./media/Skriver.png" alt="alt text" width="300">
 
-    - Hver opmærksom på ikke at spænde spænde-skruen for hårdt fast.
+    - Vær opmærksom på ikke at spænde spænde-skruen for hårdt fast.
 
-    - Placer skriveværktøjet ca. 3-6mm over papiret.
+    - Placer skriveredskabet ca. 3-6mm over papiret.
 
       <img src="./media/Skriver-position.png" alt="alt text" width="300">
 
-    - Placer fastspændte papir under skriveren, som anvist på ovenstående billede (Dér hvor skriveren starter er 0-punktet for tegningen).
+    - Placer fastspændte papir under skriveredskabet, som anvist på ovenstående billede (Dér hvor skriveredskabet starter er 0-punktet for tegningen).
 
     - Gå til Extensions/AxiDraw Control og ind i "plot"-tabben.
 
@@ -103,7 +103,7 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måder at
   
   <img src="https://media2.giphy.com/media/ZfOEduyZdXEPK/giphy.gif" alt="alt text" width="300">
 
-**se mere om hvordan du kan bruge plotteren med python på [plotter-udviddet](https://github.com/DDlabAU/plotter-udviddet) på DD-lab's github.**
+**se mere om hvordan du kan bruge plotteren med python på [plotter-udviddet](https://github.com/DDlabAU/plotter/tree/master/Plotter-udviddet) på DD-lab's github.**
 
 ## Source
 
