@@ -107,7 +107,7 @@ Dette eksempel er en modificeret udgave af *"Asterisk Painting"* by *John P.Bell
   - Opret en mappe på din computer kaldet _Asteriks Painting_.
     <br>
 - **Download koden:**
-  - Gå til _Generative code with P5_ → _Asteriks Painting_.
+  - Gå til _Generativ Kunst med P5_ → _Asteriks Painting_.
   - Download alle filerne og placer dem i den mappe, du lige har oprettet.
     <br>
 - **Åbn Visual Studio Code og importer filen:**
