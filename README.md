@@ -1,11 +1,13 @@
-# DD-Lab's Plotter 
+# DD-Lab's Plotter
+
 Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skriveredskaber og på mange forskellige overflader.
 
 ![](https://wonderfulengineering.com/wp-content/uploads/2016/12/AxiDraw-pen-plotter-1.jpg)
 
 ## Indhold
+
 - [Quickstart](https://github.com/DDlabAU/plotter/blob/master/README.md#quickstart)
-  - [Installer software og driver til Axidraw](https://github.com/DDlabAU/plotter/blob/master/README.md#installer-software-og-driver-til-axidraw) 
+  - [Installer software og driver til Axidraw](https://github.com/DDlabAU/plotter/blob/master/README.md#installer-software-og-driver-til-axidraw)
   - [Hardware setup](https://github.com/DDlabAU/plotter/blob/master/README.md#hardware-setup)
 - [Plot med P5](https://github.com/DDlabAU/plotter/blob/master/README.md#plot-med-p5)
 - [Udviddet brug af plotter](https://github.com/DDlabAU/plotter/blob/master/README.md#udviddet-brug-af-plotter)
@@ -91,44 +93,53 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 <img src="https://66.media.tumblr.com/60232d71125a997ae2ee0ddae7a0ebbb/tumblr_ohgur2otdY1qav3uso3_r1_1280.gifv" alt="alt text">
 
-___________
+---
 
 ## Plot med P5
 
-### Download kode filerne
-- Opret en lokal mappe på din computer kaldet *Asteriks Painting*
+### Download kodefilerne
 
--  Gå til *Generative code with P5* --> *Asteriks Painting*, download alle filerne og placere dem i den mappe du lige har lavet.
+- **Opret en mappe til projektet:**
+  - Opret en mappe på din computer kaldet _Asteriks Painting_.
+    <br>
+- **Download koden:**
+  - Gå til _Generative code with P5_ → _Asteriks Painting_.
+  - Download alle filerne og placer dem i den mappe, du lige har oprettet.
+    <br>
+- **Åbn Visual Studio Code og importer filen:**
+  - Gå til **File** → **Open Folder** → **Asteriks Painting**.
+    <br>
+- **Kør koden:**
+  - Klik på **Go Live** for at åbne koden i din browser.
+  - Når koden er færdig, gemmes billedet automatisk som en **PNG** eller **SVG**, afhængigt af hvad du har valgt i koden.
 
-- Åben herefter mappen i Visual Studio Code --> file -> open folder -> Asteriks Painting.
-
-- Click på G*o Live* for at åbne koden i din browser 
-
-- Når koden er færdig med at køre gemmes billedet automatisk som en png eller svg afhængig af, hvilket format du har valgt (dette gør du ved at ændre i koden)
+---
 
 ### Plot koden
 
-  - Åben inkscape og følg ovenstående instrukser i forhold til at opsætte programmet korrekt.  
+- **Åbn Inkscape:**
 
-  - Importer herefter det gemte billede under file --> importer --> asterisk_grey.svg
+  - Følg vejledningen for at opsætte programmet korrekt.
 
-- Vælg *"Include SVG image as editable object in the current file"* og tryk *OK*.
+- **Importer det gemte billede:**
 
-<img src="./media/importtype.png" alt="alt text" width="300">
+  - Gå til **File** → **Import** → _asterisk_grey.svg_.
+  - Vælg _"Include SVG image as editable object in the current file"_ og tryk **OK**.
 
-- Konverter herefter filen til paths, som plotteren kan følge. 
+  ![Import-type i Inkscape](./media/importtype.png)
+
+- **Konverter filen til en sti:**
 
   - Marker dit design.
-  - Gå til path/object to path.
-
-<img src="./media/inkscape.png" alt="alt text">
-
-- Billedet er nu klar til at blive plottet.
-
-![](./media/video.MOV)
+  - Gå til **Path** → **Object to Path**.
 
 
-___________
+  ![Konvertering til sti i Inkscape](./media/inkscape.png)
+
+- Billedet er nu klar til at blive plottet :)
+  ![GIF af plottingsprocessen](./media/video.gif)
+
+---
 
 ## Udviddet brug af Plotter
 
@@ -138,18 +149,18 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måder at
   - [CLi-API ](https://axidraw.com/doc/cli_api)
   - [Python-API](https://axidraw.com/doc/py_api)
 - Det er også muligt at interface direkte med AxiDraw's EBB motor control board.
+
   - [EBB Motor control board command protocol](http://evil-mad.github.io/EggBot/ebb.html)
-  
+
   <img src="https://media2.giphy.com/media/ZfOEduyZdXEPK/giphy.gif" alt="alt text" width="300">
-  
 
 **se mere om hvordan du kan bruge plotteren med python på [plotter-udviddet](https://github.com/DDlabAU/plotter/tree/master/Plotter-udviddet) på DD-lab's github.**
 
-Det er også muligt at omdanne et billede til en vektor baseret linje-tegning plotterne kan finde ud af at læse. Her kan man bruge det gratis værktøj https://mitxela.com/plotterfun/. Hvor du kan uploade et billede og indstille hvor meget afstand du vil have mellem linjerne, og hvor detaljeret den skal være. Der er mulighed for at downloade din tegning ned som en svg-fil, som du herefter kan åbne op i Inkscape og køre plotteren som normalt. 
+Det er også muligt at omdanne et billede til en vektor baseret linje-tegning plotterne kan finde ud af at læse. Her kan man bruge det gratis værktøj https://mitxela.com/plotterfun/. Hvor du kan uploade et billede og indstille hvor meget afstand du vil have mellem linjerne, og hvor detaljeret den skal være. Der er mulighed for at downloade din tegning ned som en svg-fil, som du herefter kan åbne op i Inkscape og køre plotteren som normalt.
 
 ## Source
 
-- https://axidraw.com/ 
+- https://axidraw.com/
 - https://axidraw.com/sw (Software installation)
 - https://axidraw.com/docs (Oversigt over dokumentationer)
 - https://wiki.evilmadscientist.com/AxiDraw_User_Guide (Fuld guide til plotteren)
