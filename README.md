@@ -7,6 +7,7 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 - [Quickstart](https://github.com/DDlabAU/plotter/blob/master/README.md#quickstart)
   - [Installer software og driver til Axidraw](https://github.com/DDlabAU/plotter/blob/master/README.md#installer-software-og-driver-til-axidraw) 
   - [Hardware setup](https://github.com/DDlabAU/plotter/blob/master/README.md#hardware-setup)
+- [Plot med P5](https://github.com/DDlabAU/plotter/blob/master/README.md#plot-med-p5)
 - [Udviddet brug af plotter](https://github.com/DDlabAU/plotter/blob/master/README.md#udviddet-brug-af-plotter)
 
 ## Quickstart
@@ -52,7 +53,7 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 **Vigtigt!!!**: Hvis huset ikke nemt kan skubbes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
 
-<img src="./media/disableXYMotorsPath.png" alt="alt text" width="300">
+<img src="./media/disableXYMotorsPath.png" alt="alt text">
 
 - Tilslut axidraw til strøm, og USB-kablet i computeren.
 
@@ -88,7 +89,44 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 - Tryk så "**Apply**" for at plotte din figur.
 
-<img src="https://66.media.tumblr.com/60232d71125a997ae2ee0ddae7a0ebbb/tumblr_ohgur2otdY1qav3uso3_r1_1280.gifv" alt="alt text" width="300">
+<img src="https://66.media.tumblr.com/60232d71125a997ae2ee0ddae7a0ebbb/tumblr_ohgur2otdY1qav3uso3_r1_1280.gifv" alt="alt text">
+
+___________
+
+## Plot med P5
+
+### Download kode filerne
+- Opret en lokal mappe på din computer kaldet *Asteriks Painting*
+
+-  Gå til *Generative code with P5* --> *Asteriks Painting*, download alle filerne og placere dem i den mappe du lige har lavet.
+
+- Åben herefter mappen i Visual Studio Code --> file -> open folder -> Asteriks Painting.
+
+- Click på G*o Live* for at åbne koden i din browser 
+
+- Når koden er færdig med at køre gemmes billedet automatisk som en png eller svg afhængig af, hvilket format du har valgt (dette gør du ved at ændre i koden)
+
+### Plot koden
+
+  - Åben inkscape og følg ovenstående instrukser i forhold til at opsætte programmet korrekt.  
+
+  - Importer herefter det gemte billede under file --> importer --> asterisk_grey.svg
+
+- Vælg *"Include SVG image as editable object in the current file"* og tryk *OK*.
+
+<img src="./media/importtype.png" alt="alt text" width="300">
+
+- Konverter herefter filen til paths, som plotteren kan følge. 
+
+  - Marker dit design.
+  - Gå til path/object to path.
+
+<img src="./media/inkscape.png" alt="alt text">
+
+- Billedet er nu klar til at blive plottet.
+
+![](./media/video.MOV)
+
 
 ___________
 
