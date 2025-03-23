@@ -97,9 +97,9 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 ## Plot med P5
 
-Dette eksempel er en modificeret udgave af *"Asterisk Painting"* by *John P.Bell* (http://www.johnpbell.com/asterisk-painting/), som er et generativt kunstværk, der printer antallet af millisekunder, der er gået siden programmets start og roterer det, så tallene til sammen danner en astrisk.
+Dette eksempel er en modificeret udgave af "Asterisk Painting" af [John P. Bell](http://www.johnpbell.com/asterisk-painting/). Kunstværket visualiserer tid ved at printe antallet af millisekunder, der er gået siden programmets start og rotere dem, så de tilsammen danner en asterisk-lignende figur.
 
-![](https://aesthetic-programming.net/pages/Asterisk_Painting.gif)
+<p align="center"> <img src="https://aesthetic-programming.net/pages/Asterisk_Painting.gif" alt="Asterisk Painting"> </p>
 
 ### Download kodefilerne
 
