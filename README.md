@@ -55,7 +55,7 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 **Vigtigt!!!**: Hvis huset ikke nemt kan skubbes til "Home-corner"-position, kan X/Y - motorene slukkes ved at gå ind i utilities AxiDraw Utilities/ Disable XY motors.
 
-<img src="./media/disableXYMotorsPath.png" alt="alt text">
+<img src="./media/disableXYMotorsPath.png" alt="alt text" width="300">
 
 - Tilslut axidraw til strøm, og USB-kablet i computeren.
 
