@@ -105,14 +105,14 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
 
 - **Opret en mappe til projektet:**
   - Opret en mappe på din computer kaldet _Abstract Pattern_.
-    <br>
+  
 - **Download koden:**
   - Gå til _Creative coding with P5_ → _Abstract Pattern_.
   - Download alle filerne og placer dem i den mappe, du lige har oprettet.
-    <br>
+    
 - **Åbn mappen i Visual Studio Code:**
   - Gå til **File** → **Open Folder** → **Abstract Pattern**.
-    <br>
+
 - **Kør koden:**
   - Klik på **Go Live** for at åbne koden i din browser.
   - Når koden er færdig, gemmes billedet automatisk som en **PNG** eller **SVG**, afhængigt af hvad du har valgt i koden.
@@ -122,21 +122,18 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
 ### Plot koden
 
 - **Åbn Inkscape:**
-
   - Følg instrukserne under Quickstart for at opsætte programmet korrekt.
 
 - **Importer det gemte billede:**
-
   - Gå til **File** → **Import** → _pattern.svg_.
   - Vælg _"Include SVG image as editable object in the current file"_ og tryk **OK**.
 
   ![Import-type i Inkscape](./media/importtype.png)
 
-- **Konverter filen til en sti:**
 
+- **Konverter filen til en sti:**
   - Marker dit design.
   - Gå til **Path** → **Object to Path**.
-
 
   ![Konvertering til sti i Inkscape](./media/mønster.png)
 
