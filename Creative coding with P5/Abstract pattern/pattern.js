@@ -27,9 +27,8 @@
  *
  * KEYS
  * arrow up/down       : step size +/-
- * s                   : save png
+ * s                   : save svg
  */
-
 var formResolution = 15;
 var stepSize = 2;
 var distortionFactor = 1;
@@ -44,10 +43,10 @@ var freeze = false;
 var drawMode = 1;
 
 let startTime;
-let milliseconds = 10000;
+let milliseconds = 10000; // how long the program will run
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, SVG);
+  createCanvas(windowWidth, windowHeight, SVG); // the last parameter allows us to save the canvas as a svg
   centerX = width / 2;
   centerY = height / 2;
   var angle = radians(360 / formResolution);
@@ -58,9 +57,8 @@ function setup() {
 
   stroke(0, 50);
   strokeWeight(0.75);
-  // background(255);
 
-  startTime = millis();
+  startTime = millis(); // starts time
 }
 
 function draw() {
@@ -89,7 +87,7 @@ function draw() {
   endShape();
 
   if (millis() - startTime >= milliseconds) {
-    save("pattern.svg"); // Save as SVG
+    save("drawing.svg"); // Change .svg to .png to save it like this instead
     print("Saved drawing");
     noLoop();
   }
@@ -107,7 +105,8 @@ function mousePressed() {
 }
 
 function keyReleased() {
-  if (key == 's' || key == 'S') save('pattern.svg');
-  if (keyCode == UP_ARROW) stepSize++;
-  if (keyCode == DOWN_ARROW) stepSize = max(1, stepSize - 1);
+  // Press s to save svg (change .svg to .png to save it like this instead)
+  if (key == 's' || key == 'S') save('drawing.svg');
+  if (keyCode == UP_ARROW) stepSize++; // increase size
+  if (keyCode == DOWN_ARROW) stepSize = max(1, stepSize - 1); // decrease size
 }
