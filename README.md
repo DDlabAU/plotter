@@ -110,7 +110,7 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
   - Gå til _Creative coding with P5_ → _Abstract Pattern_.
   - Download alle filerne og placer dem i den mappe, du lige har oprettet.
     <br>
-- **Åbn Visual Studio Code og importer filen:**
+- **Åbn mappen i Visual Studio Code:**
   - Gå til **File** → **Open Folder** → **Abstract Pattern**.
     <br>
 - **Kør koden:**
@@ -123,7 +123,7 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
 
 - **Åbn Inkscape:**
 
-  - Følg vejledningen for at opsætte programmet korrekt.
+  - Følg instrukserne under Quickstart for at opsætte programmet korrekt.
 
 - **Importer det gemte billede:**
 
