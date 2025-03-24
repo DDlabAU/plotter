@@ -99,7 +99,7 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2_2_3_02***, som er publiceret i bogen *Generative Design* af *Benedikt Gross*, *Hartmut Bohnacker*, *Julia Laub* og *Claudius Lazzeroni*. Du kan finde kunstværket [her](http://www.generative-gestaltung.de/2/) samt lignende værker. 
 
-<p align="center"> <img src="./media/mønster.gif" alt="P_2_2_3_02"> </p>
+<p align="center"> <img src="./media/mønster.gif" alt="GIF af plottingsprocessen" width="300"> </p>
 
 ### Download kodefilerne
 
@@ -138,7 +138,7 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
   ![Konvertering til sti i Inkscape](./media/mønster.png)
 
 - Billedet er nu klar til at blive plottet :)
-  ![GIF af plottingsprocessen](./media/mønster.gif)
+<img src="./media/mønster.gif" alt="GIF af plottingsprocessen" width="300">
 
 ---
 
