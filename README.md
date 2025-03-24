@@ -97,21 +97,21 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 ## Plot med P5
 
-Dette eksempel er en modificeret udgave af "Asterisk Painting" af [John P. Bell](http://www.johnpbell.com/asterisk-painting/). Kunstværket visualiserer tid ved at printe antallet af millisekunder, der er gået siden programmets start og rotere dem, så de tilsammen danner en asterisk-lignende figur.
+Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2_2_3_02***, som er publiceret i bogen *Generative Design* af *Benedikt Gross*, *Hartmut Bohnacker*, *Julia Laub* og *Claudius Lazzeroni*. Du kan finde kunstværket [her](http://www.generative-gestaltung.de/2/) samt lignende værker. 
 
-<p align="center"> <img src="https://aesthetic-programming.net/pages/Asterisk_Painting.gif" alt="Asterisk Painting"> </p>
+<p align="center"> <img src="./media/mønster.gif" alt="P_2_2_3_02"> </p>
 
 ### Download kodefilerne
 
 - **Opret en mappe til projektet:**
-  - Opret en mappe på din computer kaldet _Asteriks Painting_.
+  - Opret en mappe på din computer kaldet _Abstract Pattern_.
     <br>
 - **Download koden:**
-  - Gå til _Generativ Kunst med P5_ → _Asteriks Painting_.
+  - Gå til _Creative coding with P5_ → _Abstract Pattern_.
   - Download alle filerne og placer dem i den mappe, du lige har oprettet.
     <br>
 - **Åbn Visual Studio Code og importer filen:**
-  - Gå til **File** → **Open Folder** → **Asteriks Painting**.
+  - Gå til **File** → **Open Folder** → **Abstract Pattern**.
     <br>
 - **Kør koden:**
   - Klik på **Go Live** for at åbne koden i din browser.
@@ -127,7 +127,7 @@ Dette eksempel er en modificeret udgave af "Asterisk Painting" af [John P. Bell]
 
 - **Importer det gemte billede:**
 
-  - Gå til **File** → **Import** → _asterisk_grey.svg_.
+  - Gå til **File** → **Import** → _pattern.svg_.
   - Vælg _"Include SVG image as editable object in the current file"_ og tryk **OK**.
 
   ![Import-type i Inkscape](./media/importtype.png)
@@ -138,10 +138,10 @@ Dette eksempel er en modificeret udgave af "Asterisk Painting" af [John P. Bell]
   - Gå til **Path** → **Object to Path**.
 
 
-  ![Konvertering til sti i Inkscape](./media/inkscape.png)
+  ![Konvertering til sti i Inkscape](./media/mønster.png)
 
 - Billedet er nu klar til at blive plottet :)
-  ![GIF af plottingsprocessen](./media/video.gif)
+  ![GIF af plottingsprocessen](./media/mønster.gif)
 
 ---
 
