@@ -4,7 +4,7 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 ![](https://wonderfulengineering.com/wp-content/uploads/2016/12/AxiDraw-pen-plotter-1.jpg)
 
-## Indhold
+##  📑 Indhold
 
 - [Quickstart](https://github.com/DDlabAU/plotter/blob/master/README.md#quickstart)
   - [Installer software og driver til Axidraw](https://github.com/DDlabAU/plotter/blob/master/README.md#installer-software-og-driver-til-axidraw)
@@ -12,9 +12,9 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 - [Plot med P5](https://github.com/DDlabAU/plotter/blob/master/README.md#plot-med-p5)
 - [Udviddet brug af plotter](https://github.com/DDlabAU/plotter/blob/master/README.md#udviddet-brug-af-plotter)
 
-## Quickstart
+## ⚡ Quickstart
 
-### Installer software og driver til Axidraw
+###  💻 Installer software og driver til Axidraw
 
 - Download software [Her](https://wiki.evilmadscientist.com/Axidraw_Software_Installation).
 
@@ -47,7 +47,7 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 - Nu er din figur klar til at blive plottet, og plotterens hardware kan klargøres.
 
-## Hardware setup
+###  🔧 Hardware setup
 
 - Først skal "huset", hvor pennen monteres, skubbes hen til "Home-Position Label" positionen.
 
@@ -95,13 +95,13 @@ Plotteren er en skrive eller tegne maskine, som kan bruge næsten alle slags skr
 
 ---
 
-## Plot med P5
+###  🎨 Plot med P5
 
 Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2_2_3_02***, som er publiceret i bogen *Generative Design* af *Benedikt Gross*, *Hartmut Bohnacker*, *Julia Laub* og *Claudius Lazzeroni*. Du kan finde kunstværket [her](http://www.generative-gestaltung.de/2/) samt lignende værker. 
 
 <p align="center"> <img src="./media/mønster.gif" alt="GIF af plottingsprocessen" width="300"> </p>
 
-### Download kodefilerne
+#### 📥 Download kodefilerne
 
 - **Opret en mappe til projektet:**
   - Opret en mappe på din computer kaldet _Abstract Pattern_.
@@ -119,7 +119,7 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
 
 ---
 
-### Plot koden
+#### 🖊️ Plot koden
 
 - **Åbn Inkscape:**
   - Følg instrukserne under Quickstart for at opsætte programmet korrekt.
@@ -142,7 +142,7 @@ Dette eksempel tager udgangspunkt i en modificeret udgave af kunstværket ***P_2
 
 ---
 
-## Udviddet brug af Plotter
+##  🚀 Udviddet brug af Plotter
 
 DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måder at bruge plotteren på).
 
@@ -159,7 +159,7 @@ DISC: (Udviddet brug af plotter vil løbende blive opdateret med flere måder at
 
 Det er også muligt at omdanne et billede til en vektor baseret linje-tegning plotterne kan finde ud af at læse. Her kan man bruge det gratis værktøj https://mitxela.com/plotterfun/. Hvor du kan uploade et billede og indstille hvor meget afstand du vil have mellem linjerne, og hvor detaljeret den skal være. Der er mulighed for at downloade din tegning ned som en svg-fil, som du herefter kan åbne op i Inkscape og køre plotteren som normalt.
 
-## Source
+##  📚 Source
 
 - https://axidraw.com/
 - https://axidraw.com/sw (Software installation)
